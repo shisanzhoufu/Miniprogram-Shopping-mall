@@ -1,0 +1,3 @@
+
+<!-- <icon type="info" size="23" color="" /> -->
+ <button type="primary" bindgetuserinfo="handleGetUserInfo" open-type="getUserInfo" plain>登录</button>

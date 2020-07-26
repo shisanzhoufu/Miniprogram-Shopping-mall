@@ -1,0 +1,106 @@
+page {
+  padding-bottom: 90rpx;
+}
+.receive_address_wrap {
+  border-bottom: 1rpx solid #ccc;
+}
+.receive_address_wrap .address_info_wrap {
+  display: flex;
+  padding: 20rpx;
+}
+.receive_address_wrap .address_btn{
+  width: 60%;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+.receive_address_wrap .address_info_wrap .address_info {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.receive_address_wrap .address_info_wrap .address_phone {
+  flex: 3;
+  text-align: right;
+}
+.cart_title {
+  font-size: 36rpx;
+  color: var(--themeColor);
+  border-bottom: 1rpx solod currentColor;
+  padding: 20rpx;
+}
+.cart_main .cart_item {
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.cart_main .cart_item .cart_img_wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_main .cart_item .cart_img_wrap image {
+  width: 80%;
+}
+.cart_main .cart_item .cart_info_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 4;
+}
+.cart_main .cart_item .cart_info_wrap .goods_name {
+  display: -webkit-inline-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #868484;
+}
+.cart_main .cart_item .cart_info_wrap .goods_price_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.cart_main .cart_item .cart_info_wrap .goods_price_wrap .goods_price {
+  color: var(--themeColor);
+  font-size: 34rpx;
+}
+.cart_main .cart_item .cart_info_wrap .goods_price_wrap .cart_num_tool {
+  display: flex;
+}
+.cart_main .cart_item .cart_info_wrap .goods_price_wrap .cart_num_tool .cart_goods_num {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_tool_wrap {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1rpx solid #ccc;
+}
+.footer_tool_wrap .total_price_wrap {
+  text-align: right;
+  flex: 4;
+  padding-right: 10rpx ;
+}
+.footer_tool_wrap .total_price_wrap .total_price .total_price_text {
+  color: var(--themeColor);
+}
+.footer_tool_wrap .oder_pay_wrap {
+  flex: 2;
+  text-align: right;
+  background-color: var(--themeColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_tool_wrap .oder_pay_wrap .oder_pay {
+  color: #fff;
+  font-size: 32rpx;
+}

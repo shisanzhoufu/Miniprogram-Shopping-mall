@@ -1,0 +1,35 @@
+page {
+  background-color: #EBECE7;
+}
+.search_wrap {
+  margin: 15rpx;
+  height: 60rpx;
+  display: flex;
+  background-color: #fff;
+}
+.search_wrap input {
+  flex: 4;
+  height: 100%;
+  padding-left: 20rpx;
+}
+.search_wrap button {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26rpx;
+  padding: 0;
+  margin: 0 15rpx;
+}
+.search_content {
+  margin-top: 20rpx;
+}
+.search_content navigator {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 1rpx solid #ccc;
+  background-color: #fff;
+  padding: 15rpx 10rpx;
+}

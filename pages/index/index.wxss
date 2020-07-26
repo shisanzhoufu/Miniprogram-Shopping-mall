@@ -1,0 +1,41 @@
+/* 轮播样式 */
+.home_swiper swiper {
+  height: 340rpx;
+}
+.home_swiper swiper image {
+  width: 100%;
+}
+/* 导航样式 */
+.home_grid {
+  display: flex;
+}
+.home_grid navigator {
+  padding: 20rpx;
+  flex: 1;
+}
+.home_grid navigator image {
+  width: 100%;
+}
+/* 楼层样式 */
+.index_floor .floor_group .floor_title {
+  padding: 10rpx 0;
+}
+.index_floor .floor_group .floor_title image {
+  width: 100%;
+}
+.index_floor .floor_group .floor_list {
+  overflow: hidden;
+}
+.index_floor .floor_group .floor_list navigator {
+  float: left;
+  width: 33.33%;
+  /* 后四个超链接 */
+  /* 2 3 两个超链接 */
+}
+.index_floor .floor_group .floor_list navigator:nth-last-child(-n+4) {
+  height: 27.72711207vw;
+}
+.index_floor .floor_group .floor_list navigator image {
+  width: 100%;
+  height: 100%;
+}

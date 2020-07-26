@@ -1,0 +1,23 @@
+<!-- 搜索框 -->
+<searchInput></searchInput>
+
+<!-- 内容栏开始 -->
+<tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+<!-- 商品列表 -->
+<block wx:if="{{tabs[0].isActive}}"> 
+  <view class="first_tab">
+    <navigator class="goods_wrap" wx:for="{{goodList}}" wx:key="goods_id" url="/pages/goods_detail/goods_detail?goods_id={{item.goods_id}}">
+      <!-- 图片容器 -->
+      <view class="goods_img_wrap" >
+          <image mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'http://image5.suning.cn/uimg/b2c/newcatentries/0000000000-000000000193373779_1_400x400.jpg'}}" ></image>
+      </view>
+      <!-- 内容容器 -->
+      <view class="goods_content_wrap">
+        <view class="goods_title">{{item.goods_name}}</view>
+        <view class="goods_price">￥{{item.goods_price}}</view>
+    </view>
+    </navigator>
+  </view>
+</block>
+</tabs>
+<!-- 内容栏结束 -->
